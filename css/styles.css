@@ -449,9 +449,11 @@ display: flex;
 
 .overlay {
   position: absolute;
+  box-sizing: border-box;
 
   width: 100%;
   height: 100%;
+  padding: 40px 32px;
   color: var(--hero-header-color);
   background-color: var(--button-text-color);
 
@@ -459,7 +461,7 @@ display: flex;
 }
 
 .text-overlay {
-  padding: 40px 32px;
+  
 }
 
 .portfolio-link:hover .overlay {
