@@ -668,3 +668,64 @@ fill: currentColor;
   border: 1px solid var(--active-button-bg);
   color: #ffffff;
 }
+
+/* Стилі форм */
+
+.form {
+  width: 408px;
+  padding: 72px 24px 24px 24px;
+}
+
+.form-field,
+.comment {
+margin-bottom: 8px;
+display: flex;
+flex-direction: column;
+}
+
+
+.form-title {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.comment {
+  margin-bottom: 16px;
+}
+
+.checkbox {
+  margin-bottom: 24px;
+}
+
+.form-field label,
+.comment label,
+.checkbox label,
+.comment textarea::placeholder {
+  margin-bottom: 4px;
+  font-size: 12px;
+  letter-spacing: 0.01em;
+  color: #8E8F99;
+}
+
+.comment textarea::placeholder
+{
+  color: rgba(46, 47, 66, 0.4);
+}
+
+.checkbox a {
+  color: #4D5AE5;
+}
+
+.checkbox a:visited {
+  color: blueviolet;
+}
+
+.formfield input,
+.comment input {
+  padding: 8px 16px;
+  border: 1px solid #2E2F42;
+  border-radius: 4px;
+}
